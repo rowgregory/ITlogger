@@ -6,6 +6,9 @@ import AddLogModael from "./components/logs/AddLogModal";
 import EditLogModael from "./components/logs/EditLogModal";
 import AddTechModal from "./components/techs/AddTechModal";
 import TechListModal from "./components/techs/TechListModal";
+// this allows us to provide our app level redux state to react
+import { Provider } from "react-redux";
+import store from "./store";
 
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
@@ -17,17 +20,21 @@ const App = () => {
     M.AutoInit();
   });
   return (
-    <Fragment>
-      <SearchBar />
-      <div className="container">
-        <AddBtn />
-        <AddLogModael />
-        <EditLogModael />
-        <AddTechModal />
-        <TechListModal />
-        <Logs />
-      </div>
-    </Fragment>
+    // we have one centralized store and we'll have all of our
+    // actions and reducers attatched to this store
+    <Provider store={store}>
+      <Fragment>
+        <SearchBar />
+        <div className="container">
+          <AddBtn />
+          <AddLogModael />
+          <EditLogModael />
+          <AddTechModal />
+          <TechListModal />
+          <Logs />
+        </div>
+      </Fragment>
+    </Provider>
   );
 };
 
