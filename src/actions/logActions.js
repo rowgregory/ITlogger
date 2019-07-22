@@ -88,7 +88,8 @@ export const updateLog = log => async dispatch => {
       }
     });
 
-    const data = res.json();
+    const data = await res.json();
+    console.log(data, "DATA");
 
     dispatch({
       type: UPDATE_LOG,

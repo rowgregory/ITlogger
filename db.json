@@ -4,15 +4,22 @@
       "id": 1,
       "message": "Workstation 002 is not operating",
       "attention": true,
-      "tech": "John Doe",
-      "date": "2019-07-22T03:41:27.103Z"
+      "tech": "Sam Smith",
+      "date": "2019-07-22T13:43:50.858Z"
     },
     {
       "id": 2,
-      "message": "Hard drive 045 is borken",
-      "attention": true,
+      "message": "Hard drive 045 is fixed",
+      "attention": false,
       "tech": "John Doe",
-      "date": "2019-07-22T03:49:44.016Z"
+      "date": "2019-07-22T13:41:20.849Z"
+    },
+    {
+      "id": 3,
+      "message": "hello",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-07-22T13:43:38.327Z"
     }
   ],
   "techs": [
