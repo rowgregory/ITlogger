@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "message": "Server 007 down",
+      "id": 1,
+      "message": "Workstation 002 is not operating",
       "attention": true,
       "tech": "John Doe",
-      "date": "2019-07-21T00:32:52.984Z",
-      "id": 1
+      "date": "2019-07-22T03:41:27.103Z"
     },
     {
-      "message": "Hard drive failed in workstation 002",
+      "id": 2,
+      "message": "Hard drive 045 is borken",
       "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-07-21T00:33:14.232Z",
-      "id": 2
-    },
-    {
-      "message": "1122 wireless network fixed",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-07-21T00:33:37.697Z",
-      "id": 3
+      "tech": "John Doe",
+      "date": "2019-07-22T03:49:44.016Z"
     }
   ],
   "techs": [
