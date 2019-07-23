@@ -2,36 +2,22 @@
   "logs": [
     {
       "id": 1,
-      "message": "Workstation 002 is not operating",
-      "attention": true,
-      "tech": "Sam Smith",
-      "date": "2019-07-22T13:43:50.858Z"
-    },
-    {
-      "id": 2,
-      "message": "Hard drive 045 is fixed",
+      "message": "Hard drive at workstation 754 is up",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2019-07-22T13:41:20.849Z"
-    },
-    {
-      "id": 3,
-      "message": "workstation 002 is unable to process payments",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-07-22T13:44:27.620Z"
+      "tech": "Mary Hooper",
+      "date": "2019-07-22T22:58:21.534Z"
     }
   ],
   "techs": [
     {
-      "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
-    },
-    {
       "firstName": "Gregory",
       "lastName": "Row",
       "id": 4
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Hooper",
+      "id": 5
     }
   ]
 }
